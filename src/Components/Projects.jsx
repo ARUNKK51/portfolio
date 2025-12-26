@@ -1,6 +1,6 @@
-import websiteimg from "/assets/ecommerce-websites.jpg"
+import websiteimg from "/assets/instagram.png"
 import websiteimg2 from "/assets/ecommerce-websites.jpg"
-import websiteimg3 from "/assets/food-ecommerce.jpg"
+import websiteimg3 from "/assets/Portfolio.png"
 
 export default function Projects()
 {
@@ -11,19 +11,19 @@ export default function Projects()
             id:1,
             img:websiteimg,
             description:"An instagram clone built with React and Bootstrap.",
-            Link:"https://www.instagram.com/"
+            Link:"https://insta-frontend-35qj21txr-arunkks-projects.vercel.app/"
         },
         {
             id:2,
             img:websiteimg2,
-            description:"An instagram clone built with React and Bootstrap.",
+            description:"An Ecommerce Web application build using React,HTML,CSS,Javascript.",
             Link:"https://www.instagram.com/"
         },
         {
             id:3,
             img:websiteimg3,
-            description:"An instagram clone built with React and Bootstrap.",
-            Link:"https://www.instagram.com/"
+            description:"Fully Responsive Personal Portfolio",
+            Link:"https://portfolio-arunkks-projects.vercel.app/"
         }
 
         ]
