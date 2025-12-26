@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@theme :
+  {
+    --font-higher:"higher","cal sans";
+   
+  }
+  @border :
+  {
+    "primary":"blue"
+  }
+
+header ul li 
+{
+  
+ @apply px-2;
+
+}
+.bg-primary
+{
+    background: rgb(85 81 227);
+}
+.bg-secondary
+{
+    background: darkblue
+}
+.mobile-nav
+{
+    @apply fixed bg-gray-800 left-0 right-0 top-10 w-full h-1/4 ;
+}
+button
+{
+    cursor: pointer;
+}
+.mobile-nav  li
+{
+    @apply  w-full h-full text-center border-b-2; 
+}
+.project-desc
+{
+  @apply absolute  bg-blue-900 bottom-[0px] left-0 right-0 top-0  opacity-0 duration-500 hover:opacity-90
+}
+.btn
+{
+  @apply bg-blue-500 px-5 py-2  hover:border-2 border-white font-bold rounded ;
+}
+html
+{
+  scroll-behavior: smooth;
+}
