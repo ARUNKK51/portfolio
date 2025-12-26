@@ -2,7 +2,7 @@ import resumeimg from "../assets/resume.jpg"
 import RESUMEPDF from "../assets/ARUNKK-4.pdf"
 export default function Resume()
 {
-
+  
 
     return <section id="Resume" className="flex flex-col md:flex-row bg-secondary px-5">
 <div className="md:w-1/2 flex justify-center md:justify-end py-5">
