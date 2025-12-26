@@ -17,7 +17,7 @@ export default function Projects()
             id:2,
             img:websiteimg2,
             description:"An Ecommerce Web application build using React,HTML,CSS,Javascript.",
-            Link:"https://www.instagram.com/"
+            Link:"https://la-collection-pearl.vercel.app/"
         },
         {
             id:3,
