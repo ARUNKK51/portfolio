@@ -3,7 +3,7 @@ export default function Resume()
 {
     const config =
     {
-        Link :"https://pdfobject.com/pdf/sample.pdf"
+        Link :"../assets/ARUNKK-4.pdf"
     }
 
     return <section id="Resume" className="flex flex-col md:flex-row bg-secondary px-5">
